@@ -21,10 +21,19 @@
 - [ ] Run Code Quality Analysis
 - [ ] Get coverage report
 - [ ] Send notification when all PR checks passed
+- [ ] Run Sonar Qube
 
 #### CI - Master
 - [ ] Github Actions for building Docker Image and Pushing to Docker hub
 
 #### CI - Git Tag
 - [ ] Github Actions for building Docker Image using the specified git tag
+- [ ] Use Github Release / Packages for every git tag push
 
+
+### Observability Best Practices
+- [ ] Use an APM library (ElasticSearch / Cloudwatch / Application Insights) to log every request's duration
+- [ ] Log Request Body if the Response Code is >500
+- [ ] Use WatchDog library for simple request response loggin (maybe even only for Local Dev)
+- [ ] Use Alarms for alerting on 500 error
+- [ ] Use a library to Track core web vitals
