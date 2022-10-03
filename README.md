@@ -12,8 +12,8 @@
     - [ ] Check for exposed secrets using git guardian
     - [ ] Run Integration Tests
     - [ ] Run E2E tests
-- [ ] Docker Packaging
-- [ ] WatchTower 
+- [ ] Use Dockerfile and docker-compose
+- [ ] WatchTower to monitor new docker images
 
 #### CI - Pull Request
 - [ ] Use Github Super Linter
