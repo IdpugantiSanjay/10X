@@ -15,7 +15,7 @@
 - [ ] Use Dockerfile and docker-compose
 - [ ] WatchTower to monitor new docker images
 
-#### CI - Pull Request
+##### CI - Pull Request
 - [ ] Use Github Super Linter
 - [ ] Run Unit and Integration Tests
 - [ ] Run Code Quality Analysis
@@ -23,10 +23,10 @@
 - [ ] Send notification when all PR checks passed
 - [ ] Run Sonar Qube
 
-#### CI - Master
+##### CI - Master
 - [ ] Github Actions for building Docker Image and Pushing to Docker hub
 
-#### CI - Git Tag
+##### CI - Git Tag
 - [ ] Github Actions for building Docker Image using the specified git tag
 - [ ] Use Github Release / Packages for every git tag push
 
