@@ -1,8 +1,8 @@
 # 10X
 
-## Code Practices Checklist
+### Code Practices Checklist
 
-Local Development
+#### Local Development
 - [ ] Conventional Commits
 - [ ] Commit Linting
 - [ ] Pre Commit hooks
@@ -15,16 +15,16 @@ Local Development
 - [ ] Docker Packaging
 - [ ] WatchTower 
 
-CI - Pull Request
+#### CI - Pull Request
 - [ ] Use Github Super Linter
 - [ ] Run Unit and Integration Tests
 - [ ] Run Code Quality Analysis
 - [ ] Get coverage report
 - [ ] Send notification when all PR checks passed
 
-CI - Master
+#### CI - Master
 - [ ] Github Actions for building Docker Image and Pushing to Docker hub
 
-CI - Git Tag
+#### CI - Git Tag
 - [ ] Github Actions for building Docker Image using the specified git tag
 
