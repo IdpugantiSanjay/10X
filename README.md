@@ -30,8 +30,13 @@
 - [ ] Github Actions for building Docker Image using the specified git tag
 - [ ] Use Github Release / Packages for every git tag push
 
+#### Continous Deployment
+- [ ] Use Github Actions to deploy to AWS/Azure
+- [ ] Use Terraform for provisioning cloud infrastructure
+- [ ] Use Ansible for provisioning VM softwares
 
-### Observability Best Practices
+
+#### Observability Best Practices
 - [ ] Use an APM library (ElasticSearch / Cloudwatch / Application Insights) to log every request's duration
 - [ ] Log Request Body if the Response Code is >500
 - [ ] Use WatchDog library for simple request response loggin (maybe even only for Local Dev)
